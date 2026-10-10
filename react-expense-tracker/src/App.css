@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.expense-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.expense-form input,
+.expense-form select,
+.expense-form button,
+.category-filter {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.expense-form button {
+  cursor: pointer;
+}
+
+.total {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.expense-list {
+  margin-top: 20px;
+}
+
+.expense-item {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.expense-item button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 20px;
+}
